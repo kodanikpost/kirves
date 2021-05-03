@@ -85,8 +85,6 @@ a:focus {
 }
 
 /* POP-UP TYPOGRAPHY*/
-
-
 .cv ul {
     font-size: 1.9rem;
     font-family: "Authentic Condensed", Arial, sans-serif;
@@ -158,6 +156,7 @@ header {
 .nav-list li:nth-of-type(2) {
     margin-left: auto;
 }
+
 /* BUTTON STYLING */
 .button {
     border-radius: 0.35em;
@@ -211,13 +210,13 @@ header {
     max-height: 100%;
     overflow-y: scroll;
     padding: 1.5rem;
-
 }
 
 .open2 {
     display: inline-block;
     position: relative;
 }
+
 .here {
     background: url('../img/here.svg') center / contain no-repeat;
     position: absolute;
@@ -250,6 +249,7 @@ header {
     width: 100%;
     height: 100%;
 }
+
 #showreel .back-button {
     position: fixed;
     top: 1rem;
@@ -257,13 +257,12 @@ header {
     z-index: 40;
 }
 
-
  .cursor {
-         color: white;
-         animation: blink 0.5s infinite;
-         font-weight: 400;
-         position: relative;
-         top: -0.2rem;
+     color: white;
+     animation: blink 0.5s infinite;
+     font-weight: 400;
+     position: relative;
+     top: -0.2rem;
  }
 
  @keyframes blink {
